@@ -12,7 +12,6 @@ const MeiliSearch = () => {
 
     const index = await client.index("movies").search(serch);
     setMovies(index.hits);
-    
   };
 
   return (
@@ -32,7 +31,7 @@ const MeiliSearch = () => {
             <div>
                 <h2>{movie.title}</h2>
                 <p>{movie.overview}</p>
-                <p>{movie.poster}</p>
+                <img className="img-poster"src={movie.poster}/>
             </div>
         ))}
       </div>
