@@ -82,13 +82,14 @@ p{
   display: flex;
   justify-content: center;
   align-items: center;
+  width: 600px;
   align-self: start;
   color: white;
 }
 
 .img-poster{
   display:flex;
-  margin-left: 42%;
+  margin-left: 25%;
   width: 300px;
   height: 300px;
   margin-top: 0px;
