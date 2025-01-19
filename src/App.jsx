@@ -15,11 +15,12 @@ const App = () => {
         </div>
         <div className="text-container">
           <h1>¡Bienvenido!</h1>
-          <h2>Soy Oscar Landeta</h2>
-          <h2>Te ayudare a buscar tu pelicula :D</h2>
+          <h1>Soy Oscar Landeta</h1>
+          <h1>Te ayudare a buscar tu pelicula :D</h1>
         </div>
       </div>
-      <MeiliSearch/>
+      <MeiliSearch className="input-container"/>
+      
     </>
   );
 };

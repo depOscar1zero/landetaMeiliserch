@@ -30,3 +30,58 @@
   justify-content: center;
   align-items: center;
 }
+
+.input-container{
+  margin-top: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  width: 250px;
+  height: 35px;
+  border-radius: 10px;
+  border: none;
+  margin: 5px;
+}
+
+input.placeholder{
+  text-align: center;
+}
+
+button {
+  margin-left: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  height: 35px;
+  background-color: black;
+  width: 100px;
+  color: white;
+  cursor: pointer;
+}
+
+.results{
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+h2{
+  color: rgb(17, 9, 9);
+  display: flex;
+  justify-content: center;
+}
+
+p{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: start;
+  color: white;
+}
