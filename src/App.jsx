@@ -1,9 +1,9 @@
-import { useState } from "react";
+import React from "react";
 import reactLogo from "./assets/movie.svg";
 import "./App.css";
+import  MeiliSearch  from "./components/meiliSearch";
 
-function App() {
-  const [count, setCount] = useState(0);
+const App = () => {
 
   return (
     <>
@@ -19,21 +19,9 @@ function App() {
           <h2>Te ayudare a buscar tu pelicula :D</h2>
         </div>
       </div>
-      <div className="container2">
-        <form className="form1">
-          <input
-            type="text"
-            placeholder="Buscar pelicula"
-            value=""
-            style={{ width: "50%" }}
-          ></input>
-          <button >
-            Buscar Ahora
-          </button>
-        </form>
-      </div>
+      <MeiliSearch/>
     </>
   );
-}
+};
 
 export default App;
